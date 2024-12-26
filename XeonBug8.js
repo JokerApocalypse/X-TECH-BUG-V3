@@ -1,11 +1,11 @@
-//base by Limule Solitarus 
-//re-upload? recode? copy code? give credit ya :)
-//YouTube: @Darklimule
+//base by X-TECH-CORP
+//YouTube: @X-TECH-CORP
 //Instagram: mikael_jordan
-//Telegram: t.me/darklimule
-//GitHub: @Limule3650
-//WhatsApp: +237693538738
-//want more free bot scripts? subscribe to my youtube channel: https://www.youtube.com/@Darklimule
+//Telegram: t.me/xtechcorporation
+//GitHub: https://github.com/X-TECH-CORP
+//WhatsApp: +2250500107362
+//want more free bot scripts? subscribe to my youtube channel: https://www.youtube.com/@X-TECH-CORP
+
 
 const { default: makeWASocket, fetchLatestBaileysVersion, downloadContentFromMessage, useMultiFileAuthState, BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, proto, generateWAMessageContent, generateWAMessage, prepareWAMessageMedia, areJidsSameUser, getContentType } = require('@whiskeysockets/baileys')
 const os = require('os')
@@ -45,6 +45,14 @@ const { xeontext8 } = require('./69/xeontext8')
 const { xeontext9 } = require('./69/xeontext9')
 const { xeontext10 } = require('./69/xeontext10')
 const { xeontext11 } = require('./69/xeontext11')
+//NEW BUG DATABASE
+const { xeontext12 } = require('./69/xeontext12') 
+const { xeontext13 } = require('./69/xeontext13') 
+const { xeontext15 } = require('./69/xeontext15') 
+const { xeontext16 } = require('./69/xeontext16') 
+const { bugUrl } = require('./69/bugUrl') 
+const { convite } = require('./69/convite ') 
+const { telapreta3 } = require('./69/telapreta3') 
 const wkwk = fs.readFileSync(`./69/x.mp3`)
 const xsteek = fs.readFileSync(`./69/x.webp`)
 const o = fs.readFileSync(`./69/o.jpg`)
@@ -71,22 +79,22 @@ const xtime = moment.tz('Africa/Yaounde').format('HH:mm:ss')
         const xdate = moment.tz('Africa/Yaounde').format('DD/MM/YYYY')
         const time2 = moment().tz('Africa/Yaounde').format('HH:mm:ss')  
          if(time2 < "23:59:00"){
-var xeonytimewisher = `𝑮𝒖𝒕𝒆𝒏 𝑵𝒂𝒕𝒄𝒉 𝒃𝒂𝒃𝒚 💓 🌌`
+var xeonytimewisher = `𝑩𝒐𝒏𝒔𝒐𝒊𝒓 𝒎𝒂𝒊𝒕𝒓𝒆`
  }
  if(time2 < "19:00:00"){
-var xeonytimewisher = `𝑮𝒐𝒐𝒅 𝑬𝒗𝒆𝒏𝒊𝒏𝒈 𝒃𝒂𝒃𝒆😍 🌃`
+var xeonytimewisher = `𝑮𝑩𝒐𝒏𝒔𝒐𝒊𝒓 𝒎𝒂𝒊𝒕𝒓𝒆`
  }
  if(time2 < "18:00:00"){
-var xeonytimewisher = `𝑮𝒐𝒐𝒅 𝑬𝒗𝒆𝒏𝒊𝒏𝒈 𝒃𝒂𝒃𝒆😍 🌃`
+var xeonytimewisher = `𝑩𝒐𝒏𝒔𝒐𝒊𝒓 𝒎𝒂𝒊𝒕𝒓𝒆`
  }
  if(time2 < "15:00:00"){
-var xeonytimewisher = `𝑮𝒐𝒐𝒅 𝑨𝒇𝒕𝒆𝒓𝒏𝒐𝒐𝒏 𝒃𝒂𝒃𝒆💞 🌅`
+var xeonytimewisher = `𝑩𝒐𝒏𝒔𝒐𝒊𝒓 𝒎𝒂𝒊𝒕𝒓𝒆`
  }
  if(time2 < "11:00:00"){
-var xeonytimewisher = `𝑮𝒐𝒐𝒅 𝑴𝒐𝒓𝒏𝒊𝒏𝒈 𝒃𝒂𝒃𝒆💋 🌄`
+var xeonytimewisher = `𝑩𝒐𝒏𝒋𝒐𝒖𝒓 𝑴𝒂𝒊𝒕𝒓𝒆.`
  }
  if(time2 < "05:00:00"){
-var xeonytimewisher = `𝑮𝒐𝒐𝒅 𝑴𝒐𝒓𝒏𝒊𝒏𝒈 𝒃𝒂𝒃𝒆💋 🌄`
+var xeonytimewisher = `𝑩𝒐𝒏𝒋𝒐𝒖𝒓 𝑴𝒂𝒊𝒕𝒓𝒆.`
  } 
 module.exports = XeonBotInc = async (XeonBotInc, m, msg, chatUpdate, store) => {
     try {
