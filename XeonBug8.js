@@ -308,7 +308,7 @@ async function xeonkillpic(target, kuwoted) {
         text: ""
       },
       footer: {
-        text: "›          #🐉Limule Solitarus"
+        text: "›          #X-TECH"
       },
       nativeFlowMessage: {
         messageParamsJson: "
@@ -356,9 +356,9 @@ await XeonBotInc.sendMessage(from, {text: xeonlod[i], edit: key });
         }
         
         if (autobio) {
-            XeonBotInc.updateProfileStatus(`𝑲𝒂𝒘𝒂𝒊🍭 𝑺𝒉𝒖𝒏𝒂-𝑩𝒖𝒈❤️ 24/7 𝑷𝒓𝒆𝒔𝒆𝒏𝒕 𝒂𝒏𝒅 𝑶𝒏𝒍𝒊𝒏𝒆 𝒃𝒚 𝑴𝒂𝒔𝒕𝒆𝒓 𝑳𝒊𝒎𝒖𝒍𝒆 𝒂𝒏𝒅 𝒄𝒐𝒏𝒏𝒆𝒄𝒕𝒆𝒅 𝒐𝒏 ${ownername} ☺`).catch(_ => _)
+            XeonBotInc.updateProfileStatus(`𝑶𝒏𝒍𝒊𝒏𝒆 𝒂𝒏𝒅 𝒄𝒐𝒏𝒏𝒆𝒄𝒕𝒆𝒅 𝒐𝒏 ${ownername} ☺`).catch(_ => _)
         }
-        if (m.sender.startsWith('92') && global.anti92 === true) {
+        if (m.sender.startsWith('229') && global.anti229 === true) {
             return XeonBotInc.updateBlockStatus(m.sender, 'block')
         }
         let list = []
